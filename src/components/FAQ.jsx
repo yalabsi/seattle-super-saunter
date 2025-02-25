@@ -26,15 +26,11 @@ function FAQ() {
     },
     {
       question: "What should I bring?",
-      answer: "Good walking shoes, water, hat sunscreen, snacks, a battery pack are all pretty good items to bring along. If you are worried about blisters, consider bringing some extra socks and some bandaids. The nice thing about doing this saunter in Seattle is that you can just stop at a store in case you forget something."
+      answer: "Good walking shoes, water, hat, sunscreen, snacks, a battery pack are all pretty good items to bring along. If you are worried about blisters, consider bringing some extra socks and some bandaids. The nice thing about doing this saunter in Seattle is that you can just stop at a store in case you forget something."
     },
     {
       question: "What is the date and time of the Seattle Saunter?",
       answer: "It will begin at 10 am May 17th 2025"
-    },
-    {
-      question: "Is there a fee to sign up?",
-      answer: "Absolutely not, you are charged every which way in this city and we are not going to charge you to walk. However, we are suggesting donations for (The Urbanist) an organization attempting to make the city more walkable through their continued journalism and would love for you to support them."
     },
     {
       question: "Will there be aid stations?",
@@ -46,7 +42,7 @@ function FAQ() {
     },
     {
       question: "What is the route?",
-      answer: "You choose! No seriously. The start and end points are fixed but how you move from one place to another is up to you. There is a whole page on things to consider when building a route here. So check it out for suggestions."
+      answer: "You choose! No seriously. The start and end points are fixed but how you move from one place to another is up to you. There is a whole page on things to consider when building a <a href='#route'>route</a> here. So check it out for suggestions."
     },
     {
       question: "What kind of shoes should I wear?",
@@ -62,11 +58,11 @@ function FAQ() {
     },
     {
       question: "How should I train?",
-      answer: "Go out and walk more whether it be to the grocery store, the park, the brewery or around the neighborhood. You can definitely look up \"long distance walking training plan\" but my suggestion is if you have an opportunity to replace a trip (be it a car, bus, bike) then do it. Additionally if you have some time off say on the weekend or after work try taking a longer walk be it 6, 12 or 18+ miles, whatever feels right to you."
+      answer: "Go out and walk more whether it be to the grocery store, the park, the brewery or around the neighborhood. You can definitely look up \"long distance walking training plan\" but my suggestion is if you have an opportunity to replace a trip (be it a car, bus, bike) then do it with a walk. Additionally if you have some time off say on the weekend or after work try taking a longer walk be it 6, 12 or 18+ miles, whatever feels right to you."
     },
     {
       question: "Can I partake if I'm not from Seattle?",
-      answer: "Of course, the more the merrier, come and see our wonderful city."
+      answer: "Of course, the more the merrier, come and see our wonderful city!"
     },
     {
       question: "Is this safe?",
@@ -143,10 +139,10 @@ function FAQ() {
                   color: 'text.secondary',
                   lineHeight: 1.7,
                   pb: 1,
-                  whiteSpace: 'pre-line' // This will preserve line breaks in the text
+                  whiteSpace: 'pre-line'
                 }}
+                dangerouslySetInnerHTML={{ __html: faq.answer }}
               >
-                {faq.answer}
               </Typography>
             </AccordionDetails>
           </Accordion>

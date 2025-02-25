@@ -94,7 +94,7 @@ const SuggestedRoute = () => (
         border: `2px solid ${seattleColors.green}33`
       }}>
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m24!1m8!1m3!1d49768.73361740313!2d-122.3109196!3d47.6027653!3m2!1i1024!2i768!4f13.1!4m13!3e2!4m5!1s0x549011174d51d78b%3A0x143b9a744305735e!2sShoreline%20South%2F148th%2C%20Shoreline%2C%20WA!3m2!1d47.7361!2d-122.32522999999999!4m5!1s0x549042f2eae2620f%3A0xe636722dc434d2f8!2sGarden%20of%20Gethsemane%20Church%20of%20God%20In%20Christ%2C%20Beacon%20Avenue%20South%2C%20Seattle%2C%20WA!3m2!1d47.4958818!2d-122.2599922!5e1!3m2!1sen!2sus!4v1740292412825!5m2!1sen!2sus"
+          src="https://www.google.com/maps/embed?pb=!1m66!1m12!1m3!1d85918.75572609942!2d-122.39959319458877!3d47.70459243168508!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m51!3e2!4m5!1s0x549011174d51d78b%3A0x143b9a744305735e!2sShoreline%20South%2F148th%2C%20Shoreline%2C%20WA%2098155!3m2!1d47.7361!2d-122.32522999999999!4m3!3m2!1d47.7030982!2d-122.3150661!4m3!3m2!1d47.672672299999995!2d-122.3065536!4m5!1s0x549014c6f6b93c81%3A0xaac2ed9e74ca4754!2sArboretum%20Foundation%2C%20Arboretum%20Drive%20East%2C%20Seattle%2C%20WA!3m2!1d47.639716299999996!2d-122.2944631!4m5!1s0x54906b2d4bd909d1%3A0x2b82ec9b0eb0bcae!2sArosa%20Cafe%2C%20East%20Madison%20Street%2C%20Seattle%2C%20WA!3m2!1d47.6262152!2d-122.2918318!4m5!1s0x54906b270f0b92c3%3A0x4aa049ea46725b44!2sHi-Spot%20Cafe%2C%2034th%20Avenue%2C%20Seattle%2C%20WA!3m2!1d47.613327!2d-122.2890571!4m5!1s0x54906af3d6e0e467%3A0xad5ce3146607636a!2sMt.%20Baker%20Ridge%20Viewpoint%2C%2031st%20Avenue%20South%2C%20Seattle%2C%20WA!3m2!1d47.5900353!2d-122.29259719999999!4m5!1s0x54906a210c77f0f1%3A0x3c791c08c886fbb8!2sSeward%20Park%2C%20Lake%20Washington%20Boulevard%20South%2C%20Seattle%2C%20WA!3m2!1d47.549604599999995!2d-122.25735739999999!4m5!1s0x549042f2eae2620f%3A0xe636722dc434d2f8!2sGarden%20of%20Gethsemane%20Church%20of%20God%20In%20Christ%2C%20Beacon%20Avenue%20South%2C%20Seattle%2C%20WA!3m2!1d47.4958818!2d-122.2599922!5e0!3m2!1sen!2sus!4v1740421162029!5m2!1sen!2sus"
           width="100%"
           height="100%"
           style={{ border: 0 }}
@@ -134,7 +134,7 @@ const MakeYourOwnRoute = () => (
         First Off
       </Typography>
       <Typography sx={{ mb: 4, lineHeight: 1.8 }}>
-        If you are looking to build a route, the best place to start is through your preferred map app. I generally use Google Maps and suggest using the web version of it. When you plug in the start point the Shoreline South Light Rail station and the end point Garden of Gethsemane into google maps using the "walking" option you get a pretty straightforward route that will take about 18 miles. I do not recommend this route because it won't be that interesting and you will find yourself on pretty busy roads for a good chunk of it. Instead use this as a template to get a better sense of where you would like to pass through.
+        If you are looking to build a route, the best place to start is through your preferred map app. I generally use <a href='https://www.google.com/maps/@47.6491813,-122.3063363,11z/data=!5m1!1e3?entry=ttu&g_ep=EgoyMDI1MDIyMy4xIKXMDSoASAFQAw%3D%3D' target='_blank' rel='noopener noreferrer'>Google Maps</a> and suggest using the web version of it. When you plug in the start point the Shoreline South Light Rail station and the end point Garden of Gethsemane into google maps using the "walking" option you get a pretty straightforward route that will take about 18 miles. I do not recommend this route because it won't be that interesting and you will find yourself on pretty busy roads for a good chunk of it. Instead use this as a template to get a better sense of where you would like to pass through.
       </Typography>
 
       <Typography variant="h6" sx={{ mb: 2, color: seattleColors.darkText }}>
@@ -147,7 +147,7 @@ const MakeYourOwnRoute = () => (
           Trails and pleasant places to walk
         </Typography>
         <Typography sx={{ mb: 2, lineHeight: 1.8 }}>
-          Generally, people like to walk in areas with few cars. If you are a masochist and that is not you, might I suggest Aurora, Lake City Way, Rainier, and MLK Jr Way. But for the normal person looking for a more pleasant saunter my first suggestion would be to check out the bike layer on google maps. It is a good resource to show you where the trails are in the city. Another great resource is the bike web map of the city. Generally places that are great to bike are great to walk including trails and neighborhood greenways. For those unfamiliar with neighborhood greenways they are residential streets designed to slow car traffic, making them pleasant places to walk. They also have signs guiding your way making them very easy to follow.
+          Generally, people like to walk in areas with few cars. If you are a masochist and that is not you, might I suggest Aurora, Lake City Way, Rainier, and MLK Jr Way. But for the normal person looking for a more pleasant saunter my first suggestion would be to check out the bike layer on google maps. It is a good resource to show you where the trails are in the city. Another great resource is the <a href='https://www.seattle.gov/transportation/bike-map' target='_blank' rel='noopener noreferrer'>bike web map</a> of the city. Generally places that are great to bike are great to walk including trails and neighborhood greenways. For those unfamiliar with neighborhood greenways they are residential streets designed to slow car traffic, making them pleasant places to walk. They also have signs guiding your way making them very easy to follow.
         </Typography>
         <Box sx={{ 
           backgroundColor: `${seattleColors.gold}08`,
@@ -227,7 +227,7 @@ const MakeYourOwnRoute = () => (
           Landmarks
         </Typography>
         <Typography sx={{ mb: 2, lineHeight: 1.8 }}>
-          Never been to the top of the space needle, bought anything at Pike Place or browsed the rubber chicken museum, or seen the Kurt Cobain benches? Take the saunter as an opportunity to see all of the sights that make Seattle a unique city. You can totally be a tourist in your city. One of the best resources to find these is AtlasObscura. They have an app that shows you where unique and interesting sights are on an easy to use map.
+          Never been to the top of the space needle, bought anything at Pike Place or browsed the rubber chicken museum, or seen the Kurt Cobain benches? Take the saunter as an opportunity to see all of the sights that make Seattle a unique city. You can totally be a tourist in your city. One of the best resources to find these is <a href='https://www.atlasobscura.com/things-to-do/seattle-washington#map'>AtlasObscura</a>. They have an app that shows you where unique and interesting sights are on an easy to use map.
         </Typography>
         <Box sx={{ 
           backgroundColor: `${seattleColors.gold}08`,
@@ -254,7 +254,7 @@ const MakeYourOwnRoute = () => (
           Events
         </Typography>
         <Typography sx={{ mb: 2, lineHeight: 1.8 }}>
-          The great thing about living in a city the size of Seattle is there is always something going on. This can be a blessing or a curse. Sometimes you stumble upon a friendly and welcoming Indonesian independence day celebration and sometimes you stumble upon an endless stream of loud and belligerent motorcyclists on a bombsquad takeover, who don't like being flipped off. Sometimes they are on the same day (true story). Needless to say there are always things going on like farmers markets, concerts, sporting events, festivals, etc. and you can either make a point to visit them or a point to avoid them when planning your route, or you can serendipitously stumble upon them. The intended date is May 17th and if you are interested to see what's happening that weekend check out event12.com/Seattle.
+          The great thing about living in a city the size of Seattle is there is always something going on. This can be a blessing or a curse. Sometimes you stumble upon a friendly and welcoming Indonesian independence day celebration and sometimes you stumble upon an endless stream of loud and belligerent motorcyclists on a bombsquad takeover, who don't like being flipped off. Sometimes they are on the same day (true story). Needless to say there are always things going on like farmers markets, concerts, sporting events, festivals, etc. and you can either make a point to visit them or a point to avoid them when planning your route, or you can serendipitously stumble upon them. The intended date is May 17th and if you are interested to see what's happening that weekend check out <a href='https://event12.com/Seattle' target='_blank' rel='noopener noreferrer'>event12.com/Seattle</a>.
         </Typography>
         <Box sx={{ 
           backgroundColor: `${seattleColors.gold}08`,

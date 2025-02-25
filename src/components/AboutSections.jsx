@@ -11,7 +11,7 @@ function AboutSections() {
     {
       title: "Fun",
       icon: <SentimentVerySatisfiedIcon sx={{ fontSize: 40, color: '#1B4B66' }} />,
-      content: "The very first and most important reason you should take part in the Seattle Super Saunter is that it will be loads of fun. Sure maybe not everyone's definition of fun is not walking 20 miles, but think of it: Spring in full swing, you are exploring the city on foot either solo or with friends, unhurried you stumble onto a cute coffee shop, a scenic overlook or a Norwegian Constitution day parade. Then post walk you get to revel with others and share your experience. Sounds like a blast and a half.",
+      content: "The very first and most important reason you should take part in the Seattle Super Saunter is that it will be loads of fun. Sure maybe not everyone's definition of fun is walking 20 miles, but think of it: Spring in full swing, you are exploring the city on foot either solo or with friends, unhurried you stumble onto a cute coffee shop, a scenic overlook or a Norwegian Constitution day parade. Then post walk you get to revel with others and share your experience. Sounds like a blast and a half!",
       color: '#FF6B35',  // Vibrant orange
       bgColor: 'rgba(255, 107, 53, 0.05)'
     },
@@ -25,7 +25,7 @@ function AboutSections() {
     {
       title: "Community",
       icon: <PeopleIcon sx={{ fontSize: 40, color: '#1B4B66' }} />,
-      content: "You could very easily go and walk the length by your lonesome on your own time, and if you can't make it on May 17th I highly encourage you to. However, what will make the saunter special is the opportunity to share an experience with others. Many folks walk and urban hike in Seattle, though often in isolation. If folks want to walk at their own pace by themselves, the saunter allows for that. But this can be a very lonely city and there are never enough opportunities (especially free opportunities) to form connections with others. Whether that is strengthening bonds with the folks you walk with, meeting fellow saunterers at the celebration afterwards, or even through striking up conversation with someone selling you a bahn mi, the Seattle Saunter is a great way to find and form community. What you may come to realize is that Seattle is much more the people who live here instead of the rain, the space needle, and the stunning views.",
+      content: "You could very easily go and walk the length by your lonesome on your own time, and if you can't make it on May 17th I highly encourage you to. However, what will make the saunter special is the opportunity to share an experience with others. Many folks walk and urban hike in Seattle, though often in isolation. If folks want to walk at their own pace by themselves, the saunter allows for that. But this can be a very lonely city and there are never enough opportunities to form connections with others. Whether that is strengthening bonds with the folks you walk with, meeting fellow saunterers at the celebration afterwards, or even through striking up conversation with someone selling you a bahn mi, the Seattle Saunter is a great way to find and form community. What you may come to realize is that Seattle is much more the people instead of the rain, the space needle, and the stunning views.",
       color: '#2BAE66',  // Fresh green
       bgColor: 'rgba(43, 174, 102, 0.05)'
     },

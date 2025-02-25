@@ -40,6 +40,9 @@ function Hero() {
           justifyContent: 'center',
           textAlign: 'center',
           color: 'white',
+          backgroundPosition: { xs: '30% center', md: 'center center' },
+          backgroundSize: 'cover',
+          backgroundRepeat: 'no-repeat'
         }}
       >
         <Container maxWidth="md">
@@ -53,7 +56,7 @@ function Hero() {
             The Seattle Super Saunter
           </Typography>
           <Typography variant="h5" sx={{ mb: 3 }}>
-            A leisurely journey through Seattle's most enchanting pathways
+          Seattle’s Premier long-distance walking event
           </Typography>
           <Typography variant="h6" className="event-date" sx={{ mb: 4 }}>
             Join us on May 17th, 2025

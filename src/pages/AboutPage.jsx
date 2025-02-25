@@ -17,7 +17,7 @@ function AboutPage() {
     {
       title: "Community",
       icon: <PeopleIcon sx={{ color: '#004E89' }} />,
-      content: "I want people to share in the experience whether that be doing it with their friends or coming together afterwards to share their experience with other saunterers. I believe there already to be a strong walking community in Seattle, as well as people willing to do something fun and silly like this. So the hope to bring folks together."
+      content: "I want people to share in the experience whether that be doing it with their friends or coming together afterwards to share their experience with other saunterers. I believe there already to be a strong walking community in Seattle, as well as people willing to do something fun and silly like this. So the hope is to bring people together."
     },
     {
       title: "Appreciation",
@@ -107,7 +107,7 @@ function AboutPage() {
               }}
             >
               <InstagramIcon sx={{ mr: 1 }} />
-              Follow the journey on Instagram
+              Proof that I am a real person
             </Link>
           </Paper>
         </Box>
@@ -179,7 +179,7 @@ function AboutPage() {
             ))}
 
             <Typography sx={{ mt: 6, lineHeight: 1.8 }}>
-              There are plenty more reasons that make me willing to invest my time, energy and money to make sure the Seattle Super Saunter is an event that folks are excited to take part in, but overall I think it will be a good time and I want to share the opportunity with folks.
+              There are plenty more reasons that make me willing to invest my time, energy and money to make sure the Seattle Super Saunter is an event that others are excited to take part in, but overall I think it will be a good time and I want to share the opportunity with others.
             </Typography>
           </Paper>
         </Box>

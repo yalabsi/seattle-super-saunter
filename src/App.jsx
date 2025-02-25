@@ -1,7 +1,7 @@
 import { HashRouter as Router, Routes as RouterRoutes, Route } from 'react-router-dom';
 import { ThemeProvider } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
-import theme from './theme';
+import theme from './styles/theme';
 import Navbar from './components/Navbar';
 import HomePage from './pages/HomePage';
 import BuildRoutePage from './pages/BuildRoutePage';
