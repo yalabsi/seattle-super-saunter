@@ -1,4 +1,6 @@
 import { Box, Typography, Container, Paper } from '@mui/material';
+import noRoutePicture from '../../pics/IMG_8740.jpg';
+import routePicture from '../../pics/IMG_7597.jpg';
 
 // Update the color constants
 const seattleColors = {

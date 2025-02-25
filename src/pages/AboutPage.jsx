@@ -1,11 +1,11 @@
 import { Box, Typography, Container, Link, Paper } from '@mui/material';
-import DirectionsWalkIcon from '@mui/icons-material/DirectionsWalk';
 import ExploreIcon from '@mui/icons-material/Explore';
 import PeopleIcon from '@mui/icons-material/People';
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import CampaignIcon from '@mui/icons-material/Campaign';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import Footer from '../components/Footer';
+import pictureOfHolden from '../../pics/IMG_4677.JPG';
 
 function AboutPage() {
   const goals = [
@@ -80,7 +80,7 @@ function AboutPage() {
               }
             }}>
               <img 
-                src="https://newschannel9.com/resources/media/1a56921c-4b06-45e1-9123-857905d59a46-medium16x9_HoldenMinorRinger2.jpg" 
+                src={pictureOfHolden} 
                 alt="Holden with his walking stroller in front of the US Capitol building"
                 loading="lazy"
               />

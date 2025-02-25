@@ -5,14 +5,10 @@ import {
   Accordion, 
   AccordionSummary, 
   AccordionDetails,
-  Paper,
-  Grid
 } from '@mui/material';
-import DirectionsWalkIcon from '@mui/icons-material/DirectionsWalk';
-import ExploreIcon from '@mui/icons-material/Explore';
-import PeopleIcon from '@mui/icons-material/People';
-import CelebrationIcon from '@mui/icons-material/Celebration';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+import seagullPicture from '../../pics/IMG_9997.JPG';
+import { seattleColors } from '../styles/colors';
 
 function FAQ() {
   const faqs = [
@@ -79,7 +75,7 @@ function FAQ() {
       }}
     >
       <Container maxWidth="lg">
-        {/* FAQ section */}
+
         <Typography 
           variant="h3" 
           component="h2" 
@@ -148,6 +144,42 @@ function FAQ() {
           </Accordion>
         ))}
       </Container>
+      <Box sx={{ 
+          mb: 6,
+          mt: 6,
+          borderRadius: 4,
+          overflow: 'hidden',
+          position: 'relative',
+          maxWidth: '800px',
+          mx: 'auto'
+        }}>
+          <img 
+            src={seagullPicture} 
+            alt="A wise seagull overlooking the city"
+            loading="lazy"
+            style={{
+              width: '100%',
+              height: 'auto',
+              display: 'block'
+            }}
+          />
+          <Typography
+            variant="body1"
+            sx={{
+              textAlign: 'center',
+              py: 2,
+              color: seattleColors.darkText,
+              backgroundColor: `${seattleColors.green}05`,
+              borderBottom: `2px solid ${seattleColors.green}33`,
+              borderLeft: `2px solid ${seattleColors.green}33`,
+              borderRight: `2px solid ${seattleColors.green}33`,
+              borderBottomLeftRadius: 16,
+              borderBottomRightRadius: 16,
+            }}
+          >
+            Let the wise seagull answer your questions
+          </Typography>
+        </Box>
     </Box>
   );
 }
