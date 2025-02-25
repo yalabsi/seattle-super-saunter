@@ -1,6 +1,5 @@
 import { Box, Typography, Container, Paper } from '@mui/material';
-import noRoutePicture from '../../pics/IMG_8740.jpg';
-import routePicture from '../../pics/IMG_7597.jpg';
+import banhMi from '../../pics/IMG_8244.jpg';
 
 // Update the color constants
 const seattleColors = {
@@ -171,6 +170,22 @@ const MakeYourOwnRoute = () => (
       </Box>
       {/* Lunch Section */}
       <Box sx={{ mb: 4 }}>
+        <Box sx={{ 
+          mb: 3,
+          borderRadius: 4,
+          overflow: 'hidden',
+          position: 'relative',
+        }}>
+          <img 
+            src={banhMi} 
+            alt="A delicious banh mi sandwich"
+            style={{
+              width: '100%',
+              height: 'auto',
+              display: 'block'
+            }}
+          />
+        </Box>
         <Typography variant="subtitle1" sx={{ mb: 2, fontWeight: 600, color: seattleColors.darkText }}>
           Where to get lunch
         </Typography>
