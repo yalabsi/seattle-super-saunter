@@ -8,7 +8,6 @@ import BuildRoutePage from './pages/BuildRoutePage';
 import FAQPage from './pages/FAQPage';
 import AboutPage from './pages/AboutPage';
 import ConnectPage from './pages/ConnectPage';
-import AboutSections from './components/AboutSections';
 import './styles/App.css';
 
 function App() {
