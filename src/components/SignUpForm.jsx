@@ -11,8 +11,20 @@ function SignUpForm() {
     const [loading, setLoading] = useState(false);
     const [success, setSuccess] = useState(false);
     const [postSaunter, setPostSaunter] = useState('no');
+    const [errors, setErrors] = useState({});
 
     const handleSubmit = () => {
+        const newErrors = {};
+        if (!firstName.trim()) newErrors.firstName = 'First name is required';
+        if (!lastName.trim()) newErrors.lastName = 'Last name is required';
+        if (!email.trim()) newErrors.email = 'Email is required';
+        else if (!/\S+@\S+\.\S+/.test(email)) newErrors.email = 'Please enter a valid email';
+
+        if (Object.keys(newErrors).length > 0) {
+            setErrors(newErrors);
+            return;
+        }
+
         setLoading(true);
         fetch(formURL, {
             method: 'POST',
@@ -48,7 +60,12 @@ function SignUpForm() {
                 variant="outlined"
                 required
                 value={firstName}
-                onChange={(e) => setFirstName(e.target.value)}
+                onChange={(e) => {
+                    setFirstName(e.target.value);
+                    setErrors(prev => ({ ...prev, firstName: '' }));
+                }}
+                error={!!errors.firstName}
+                helperText={errors.firstName}
                 sx={{
                 '& .MuiOutlinedInput-root': {
                     backgroundColor: seattleColors.white,
@@ -67,7 +84,12 @@ function SignUpForm() {
                 variant="outlined"
                 required
                 value={lastName}
-                onChange={(e) => setLastName(e.target.value)}
+                onChange={(e) => {
+                    setLastName(e.target.value);
+                    setErrors(prev => ({ ...prev, lastName: '' }));
+                }}
+                error={!!errors.lastName}
+                helperText={errors.lastName}
                 sx={{
                 '& .MuiOutlinedInput-root': {
                     backgroundColor: seattleColors.white,
@@ -88,7 +110,12 @@ function SignUpForm() {
             variant="outlined"
             required
             value={email}
-            onChange={(e) => setEmail(e.target.value)}
+            onChange={(e) => {
+                setEmail(e.target.value);
+                setErrors(prev => ({ ...prev, email: '' }));
+            }}
+            error={!!errors.email}
+            helperText={errors.email}
             sx={{
                 '& .MuiOutlinedInput-root': {
                 backgroundColor: seattleColors.white,
