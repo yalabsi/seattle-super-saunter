@@ -118,11 +118,24 @@ function AboutSections() {
                 sx={{ 
                   fontSize: { xs: '0.9rem', md: '1.1rem' },
                   lineHeight: 1.8, 
+                  mt: 2,
+                  mb: 3,
                   color: 'text.secondary', 
                   wordBreak: 'break-word'
                 }}
               >
-                The Seattle Super Saunter is not a race and is not intended to group walk in unison. It is an opportunity to see your city by foot, be it by yourself with friends, or maybe even someone you meet at the start. There will be a meetup afterward for folks to celebrate, mingle, and form community.
+                Although the Seattle Super Saunter is intended to be walked, there is by no means a mandate to walk. You can run, you can hop on the bus, you can skateboard, you can pogo stick, or combine multiple modes of transportation. With the only exception of driving and riding a motorcycle, this is your adventure so traverse Seattle how you want.  
+              </Typography>
+              <Typography 
+                variant="body1" 
+                sx={{ 
+                  fontSize: { xs: '0.9rem', md: '1.1rem' },
+                  lineHeight: 1.8, 
+                  color: 'text.secondary', 
+                  wordBreak: 'break-word'
+                }}
+              >
+                Additionally the Seattle Super Saunter is not a race and is not intended to be done in one massive group. It is an opportunity to see your city by foot, be it by yourself with friends, or maybe even someone you meet at the start. There will be a meetup afterward for folks to celebrate, mingle, and form community.
               </Typography>
             </Paper>
           </Box>

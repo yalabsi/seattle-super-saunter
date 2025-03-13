@@ -10,14 +10,14 @@ import pictureOfHolden from '../../pics/IMG_4677.JPG';
 function AboutPage() {
   const goals = [
     {
-      title: "Exploration",
+      title: "Encouragement",
       icon: <ExploreIcon sx={{ color: '#FF6B35' }} />,
-      content: "I want people to see the city on foot to explore new places, and get a fresh perspective on Seattle"
+      content: "I want to encourage folks to walk more generally and for folks to see Seattle through a fresh perspective. Additionally given that there is no mandate for the Seattle Super Saunter to be entirely walked, I also want to encourage folks to use transit and other inventive ways to traverse the city."
     },
     {
       title: "Community",
       icon: <PeopleIcon sx={{ color: '#004E89' }} />,
-      content: "I want people to share in the experience whether that be doing it with their friends or coming together afterwards to share their experience with other saunterers. I believe there already to be a strong walking community in Seattle, as well as people willing to do something fun and silly like this. So the hope is to bring people together."
+      content: "I want people to share in the experience whether that be doing it with their friends or coming together afterwards to share their experience with other saunterers. I believe there already is a strong walking community in Seattle, as well as people willing to do something fun and silly like this. So the hope is to bring people together."
     },
     {
       title: "Appreciation",
@@ -27,7 +27,7 @@ function AboutPage() {
     {
       title: "Advocacy",
       icon: <CampaignIcon sx={{ color: '#8A4FFF' }} />,
-      content: "Although Seattle is a pretty walkable city compared to most other American cities, we still have a long way to go in regards to reaching our city's Vision Zero goal of zero traffic fatalities. We have partnered with the Urbanist to get the word out about this event and to support their journalism in bringing these issues to the public."
+      content: "Although there is no explicit advocacy being championed by the Seattle Super Saunter, what I envision are groups and individuals using the Saunter as a vehicle for the issues that they care about in regards to Seattle."
     }
   ];
 

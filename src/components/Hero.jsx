@@ -35,7 +35,7 @@ function Hero() {
             The Seattle Super Saunter
           </Typography>
           <Typography variant="h5" sx={{ mb: 3 }}>
-          Seattle’s Premier long-distance walking event 
+          Seattle's Premier long-distance trekking event
           </Typography>
           <Typography variant="h6" className="event-date" sx={{ mb: 4 }}>
             Join us on May 17th, 2025

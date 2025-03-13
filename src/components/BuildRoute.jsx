@@ -1,5 +1,6 @@
 import { Box, Typography, Container, Paper } from '@mui/material';
 import banhMi from '../../pics/IMG_8244.jpg';
+import book from '../../pics/Book.jpg';
 
 // Update the color constants
 const seattleColors = {
@@ -294,6 +295,66 @@ const MakeYourOwnRoute = () => (
   </Paper>
 );
 
+const BookRecommendation = () => (
+  <Paper
+    elevation={0}
+    sx={{
+      p: 4,
+      borderRadius: 4,
+      backgroundColor: `${seattleColors.green}08`,
+      border: `2px solid ${seattleColors.green}33`,
+      mb: 8
+    }}
+  >
+    <Box sx={{ mb: 6 }}>
+      <Typography variant="h5" sx={{ mb: 2, color: seattleColors.darkText, fontWeight: 600 }}>
+        4. Book Recommendation
+      </Typography>
+      <Typography sx={{ mb: 3, lineHeight: 1.8 }}>
+        Don't trust a transplant like me to give you walking advice? Well then take some inspiration from local author David B. Williams on the subject.
+      </Typography>
+      <Box sx={{ 
+        backgroundColor: `${seattleColors.gold}08`,
+        p: 4,
+        borderRadius: 2,
+        border: `2px solid ${seattleColors.gold}33`,
+        mb: 3,
+        display: 'flex',
+        gap: 4,
+        flexDirection: { xs: 'column', md: 'row' },
+        alignItems: 'center'
+      }}>
+        <Box sx={{ flex: 1 }}>
+          <Typography variant="h6" sx={{ mb: 2, color: seattleColors.darkText, fontWeight: 600 }}>
+            Seattle Walks: Discovering History and Nature in the City
+          </Typography>
+          <Typography sx={{ mb: 2, lineHeight: 1.8 }}>
+            by David B. Williams
+          </Typography>
+          <Typography sx={{ lineHeight: 1.8 }}>
+            (Use this <a href='https://uwapress.uw.edu/book/9780295753577/seattle-walks/' target='_blank' rel='noopener noreferrer'>link </a> with code <strong>WALK30</strong> for 30% off your copy of the recently released 2nd edition of the book.)
+          </Typography>
+        </Box>
+        <Box sx={{ 
+          width: { xs: '100%', md: '200px' },
+          flexShrink: 0
+        }}>
+          <img 
+            src={book} 
+            alt="Seattle Walks book cover"
+            style={{
+              width: '100%',
+              height: 'auto',
+              display: 'block',
+              borderRadius: '4px'
+            }}
+          />
+        </Box>
+      </Box>
+    </Box>
+  </Paper>
+);
+
 function BuildRoute() {
   return (
     <Box id="route" sx={{ py: 8, backgroundColor: seattleColors.white, position: 'relative', minHeight: '100vh' }}>
@@ -320,6 +381,7 @@ function BuildRoute() {
           <NoRoute />
           <SuggestedRoute />
           <MakeYourOwnRoute />
+          <BookRecommendation />
         </Box>
       </Container>
     </Box>
