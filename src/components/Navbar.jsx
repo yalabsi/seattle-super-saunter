@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { useLocation, Link as RouterLink } from 'react-router-dom';
+import { useLocation, Link as RouterLink, Link } from 'react-router-dom';
 import {
   AppBar,
   Box,
@@ -13,6 +13,7 @@ import {
   useScrollTrigger,
 } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
+import logo from '../../pics/logo.png';
 
 const pages = [
   { title: 'Home', href: '/' },
@@ -51,23 +52,24 @@ function Navbar() {
     >
       <Container maxWidth="xl">
         <Toolbar disableGutters>
-          {/* Logo/Brand - Desktop */}
-          <Typography
-            variant="h6"
-            noWrap
-            component={RouterLink}
-            to="/"
+          <Link 
+            href="/"
             sx={{
-              mr: 2,
-              display: { xs: 'none', md: 'flex' },
-              fontWeight: 700,
-              letterSpacing: '.2rem',
-              color: 'white',
               textDecoration: 'none',
+              display: 'flex',
+              alignItems: 'center'
             }}
           >
-            SUPER SAUNTER
-          </Typography>
+            <img 
+              src={logo}
+              alt="Seattle Super Saunter Logo"
+              style={{
+                height: '100px',
+                paddingTop: '10px',
+                width: 'auto'
+              }}
+            />
+          </Link>
 
           {/* Mobile menu */}
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
