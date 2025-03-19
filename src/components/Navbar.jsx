@@ -64,8 +64,9 @@ function Navbar() {
               src={logo}
               alt="Seattle Super Saunter Logo"
               style={{
-                height: '100px',
-                paddingTop: '10px',
+                height: '80px',
+                paddingTop: '4px',
+                paddingRight: '12px',
                 width: 'auto'
               }}
             />
