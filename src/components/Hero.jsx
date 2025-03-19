@@ -25,16 +25,13 @@ function Hero() {
         }}
       >
         <Container maxWidth="md">
-          <Typography variant="h1" component="h1" sx={{ 
-            fontSize: { xs: '3rem', md: '4rem' },
+          <Typography variant="h4" sx={{ 
+            fontSize: { xs: '3rem', md: '2rem' },
             textTransform: 'uppercase',
             letterSpacing: '2px',
             textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)',
             mb: 2
           }}>
-            The Seattle Super Saunter
-          </Typography>
-          <Typography variant="h5" sx={{ mb: 3 }}>
           Seattle's Premier long-distance trekking event
           </Typography>
           <Typography variant="h6" className="event-date" sx={{ mb: 4 }}>

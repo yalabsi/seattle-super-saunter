@@ -113,25 +113,6 @@ function Navbar() {
             </Menu>
           </Box>
 
-          {/* Logo/Brand - Mobile */}
-          <Typography
-            variant="h5"
-            noWrap
-            component={RouterLink}
-            to="/"
-            sx={{
-              mr: 2,
-              display: { xs: 'flex', md: 'none' },
-              flexGrow: 1,
-              fontWeight: 700,
-              letterSpacing: '.2rem',
-              color: 'white',
-              textDecoration: 'none',
-            }}
-          >
-            SUPER SAUNTER
-          </Typography>
-
           {/* Desktop menu */}
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' }, justifyContent: 'flex-end' }}>
             {pages.map((page) => (
