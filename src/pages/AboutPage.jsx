@@ -1,4 +1,4 @@
-import { Box, Typography, Container, Link, Paper } from '@mui/material';
+import { Box, Typography, Container, Link, Paper, Grid } from '@mui/material';
 import ExploreIcon from '@mui/icons-material/Explore';
 import PeopleIcon from '@mui/icons-material/People';
 import FavoriteIcon from '@mui/icons-material/Favorite';
@@ -6,6 +6,8 @@ import CampaignIcon from '@mui/icons-material/Campaign';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import Footer from '../components/Footer';
 import pictureOfHolden from '../../pics/IMG_4677.JPG';
+import pictureOfRegan from '../../pics/picOfRegan.jpeg';
+import pictureOfYousef from '../../pics/picOfYousef.jpg';
 
 function AboutPage() {
   const goals = [
@@ -109,7 +111,84 @@ function AboutPage() {
               <InstagramIcon sx={{ mr: 1 }} />
               Proof that I am a real person
             </Link>
-          </Paper>
+
+          <Grid container spacing={4} sx={{ mb: 6, mt: 2 }}>
+              {/* Regan's Section */}
+              <Grid item xs={12} md={6}>
+                <Box>
+                  <Typography variant="h5" sx={{ 
+                    mb: 2, 
+                    color: '#1B4B66',
+                    textAlign: 'center',
+                    fontWeight: 500
+                  }}>
+                    Regan
+                  </Typography>
+                  <Typography variant="subtitle1" sx={{ 
+                    mb: 2, 
+                    color: '#1B4B66',
+                    textAlign: 'center',
+                    fontStyle: 'italic'
+                  }}>
+                    Professional Get-The-Word-Outer
+                  </Typography>
+                  <Box sx={{ 
+                    borderRadius: 2,
+                    overflow: 'hidden',
+                    '& img': {
+                      width: '100%',
+                      height: 'auto',
+                      display: 'block'
+                    }
+                  }}>
+                    <img 
+                      src={pictureOfRegan} 
+                      alt="Regan"
+                      loading="lazy"
+                    />
+                  </Box>
+                </Box>
+              </Grid>
+
+              {/* Yousef's Section */}
+              <Grid item xs={12} md={6}>
+                <Box>
+                  <Typography variant="h5" sx={{ 
+                    mb: 2, 
+                    color: '#1B4B66',
+                    textAlign: 'center',
+                    fontWeight: 500
+                  }}>
+                    Yousef
+                  </Typography>
+                  <Typography variant="subtitle1" sx={{ 
+                    mb: 2, 
+                    color: '#1B4B66',
+                    textAlign: 'center',
+                    fontStyle: 'italic'
+                  }}>
+                    Webmaster
+                  </Typography>
+                  <Box sx={{ 
+                    borderRadius: 2,
+                    overflow: 'hidden',
+                    '& img': {
+                      width: '100%',
+                      height: 'auto',
+                      display: 'block'
+                    }
+                  }}>
+                    <img 
+                      src={pictureOfYousef} 
+                      alt="Yousef"
+                      loading="lazy"
+                    />
+                  </Box>
+                </Box>
+              </Grid>
+            </Grid>
+            </Paper>
+
         </Box>
 
         {/* The Goal section */}
